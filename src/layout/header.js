@@ -3,8 +3,8 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header>
-    <div>
+  <header style={{backgroundColor: 'red', marginTop: 0}}>
+    <div className="container">
       <h1>
         <Link
           to="/"
@@ -24,4 +24,4 @@ Header.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default Header;

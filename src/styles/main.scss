@@ -4,9 +4,11 @@
 
 // Base
 @import 'base/variables';
+@import 'base/mixins';
 
 // reset
 @import 'base/reset';
 
 // componenents
-@import 'components/scaffolding';
+@import 'modules/scaffolding';
+@import 'modules/layout';
