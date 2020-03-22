@@ -1,0 +1,27 @@
+.nav {
+  background: white;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  top: 0;
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  transition: min-height 0.3s ease;
+  &--scrolled {
+    box-shadow: 1px 2px 18px rgba(0, 0, 0, 0.1);
+    min-height: 50px;
+  }
+}
+
+.brand {
+  text-transform: uppercase;
+  &__blue {
+    color: $primary;
+  }
+  &__dark {
+    color: $dark;
+  }
+}

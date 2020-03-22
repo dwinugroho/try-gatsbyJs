@@ -12,3 +12,17 @@
     padding: 0 2rem;
   }
 }
+
+// Main Content
+
+#main-content {
+  margin-top: 55px;
+}
+
+@include small-breakpoint {
+  #main-content {
+    margin-top: 140px;
+    padding: 60px 0 0;
+    min-height: calc(100vh - 219px);
+  }
+}
