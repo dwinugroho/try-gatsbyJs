@@ -6,14 +6,14 @@ import SEO from "../components/seo";
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <section className="container">
-      <h1>
+    <section className="container hero">
+      <h1 className="hero__title">
         DWI NUGROHO
       </h1>
-      <p>
+      <p className="hero__role">
         Frontend Engineer at <a href="//arkademy.com" target="_blank" rel="noopener noreferrer"> Arkademy</a>
       </p>
-      <p>
+      <p className="hero__description">
         I'm web developer specializing in modern JavaScript. I build things with code, make digital products to improve how humans living their life.
       </p>
     </section>
