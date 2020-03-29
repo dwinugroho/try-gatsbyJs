@@ -26,13 +26,25 @@ export default class Navigation extends Component {
   render() {
     return (
       <nav className={this.state.scrolled ? 'nav nav--scrolled' : 'nav'}>
-        <section className="container">
-          <h1 className="brand">
+        <section className="container navbar">
+          <h5 className="brand">
             <Link to="/">
-              <span className="brand__blue">Dwi </span>
+              <span role="img" aria-label="New Moon Face">🌚</span>
+              <span className="brand__blue"> Dwi </span>
               <span className="brand__dark">Nugroho</span>
             </Link>
-          </h1>
+          </h5>
+          <section className="menu">
+            <Link className="menu__item" to="/">
+              <span role="img" aria-label="Page with Curl">📃</span> Articles
+            </Link>
+            <Link className="menu__item" to="/">
+              <span role="img" aria-label="Cat Face">🐱</span> About Me
+            </Link>
+            <Link className="menu__item" to="/">
+              <span role="img" aria-label="Card Index">📇</span> Contact
+            </Link>
+          </section>
         </section>
       </nav>
     );
