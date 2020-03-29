@@ -23,7 +23,7 @@ h2,
 h3,
 h4,
 h5 {
-  margin: 0 0 0rem 0;
+  margin: 0 0 0.2rem -1px;
   font-weight: $heading-font-weight;
   font-family: $heading-font-family;
   line-height: $heading-line-height;
@@ -71,7 +71,7 @@ h5 {
   h3,
   h4,
   h5 {
-    margin: 0 0 0rem 0;
+    margin: 0 0 0.4rem -1px;
   }
 
   // Heading desktop individual styles
@@ -108,7 +108,7 @@ ul,
 dl,
 table {
   margin: 0 0 0.5rem 0;
-  font-size: 1.15rem;
+  font-size: 1rem;
 }
 
 @include small-breakpoint {
@@ -118,7 +118,7 @@ table {
   dl,
   table {
     margin: 0 0 1rem 0;
-    font-size: 1.3rem;
+    font-size: 1.15rem;
   }
 }
 
