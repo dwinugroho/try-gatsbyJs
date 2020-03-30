@@ -28,10 +28,13 @@ $line-height: 1.6;
 
 // Colors
 
-$primary-color: #003DA1;
-$dark-color: #2B2727;
+$bg-color: #202020;
+$primary-color: #81A5F8;
+$dark-color: rgb(0, 0, 0);
 $link-color: $primary-color;
 $link-hover-color: darken($link-color, 10%);
+$light-font-color: #EBEBEB;
+$text-color: rgb(179, 179, 179);
 
 // Headings
 $heading-font-color: $dark-color;

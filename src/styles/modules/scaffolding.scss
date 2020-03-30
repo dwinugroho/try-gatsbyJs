@@ -11,6 +11,7 @@ html {
 body {
   color: $font-color;
   font-size: 1rem;
+  background: $bg-color;
 }
 
 a {
@@ -27,7 +28,8 @@ h5 {
   font-weight: $heading-font-weight;
   font-family: $heading-font-family;
   line-height: $heading-line-height;
-  color: $heading-font-color;
+  // color: $heading-font-color;
+  color: $light-font-color;
 }
 
 
@@ -109,6 +111,7 @@ dl,
 table {
   margin: 0 0 0.5rem 0;
   font-size: 1rem;
+  color: $text-color;
 }
 
 @include small-breakpoint {
