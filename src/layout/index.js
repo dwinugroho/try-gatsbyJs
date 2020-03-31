@@ -26,9 +26,32 @@ const Layout = ({ children }) => {
     <>
       <Navigation siteTitle={data.site.siteMetadata.title} />
       <main id="main-content">{children}</main>
-      <footer className="container">
-        
-      </footer>
+      <section className="container" style={{marginTop: '100px'}}>
+        <hr />
+        <footer className="footer">
+          <p>
+            Dwi Nugroho 
+            <span role="img" aria-label="New Moon Face"> 🌚</span>
+          </p>
+          <section className="footer__menu">
+            <a href="https://github.com/DwiNugroho" target="_blank" rel="noopener noreferrer" className="footer__link" >
+              <p>
+                Github
+              </p>
+            </a>
+            <a href="https://medium.com/@dwinugrohoo" target="_blank" rel="noopener noreferrer" className="footer__link">
+              <p>
+                Medium
+              </p>
+            </a>
+            <a href="https://www.linkedin.com/in/dwi-nugroho-462126138/" target="_blank" rel="noopener noreferrer" className="footer__link">
+              <p>
+                LinkedIn
+              </p>
+            </a>
+          </section>
+        </footer>
+      </section>
     </>
   )
 }

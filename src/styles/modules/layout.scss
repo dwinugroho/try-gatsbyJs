@@ -51,7 +51,28 @@
   }
 }
 
-::selection {
-  background: rgba(255, 235, 20, 0.7);
-  color: white;
+.footer {
+  padding: 56px 0px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  &__menu {
+    display: flex;
+  }
+  &__link {
+    margin: 0px 8px;
+    &:nth-last-child(1) {
+      margin: 0px 0px 0px 8px;
+    }
+    &:nth-child(1) {
+      margin: 0px 8px 0px 0px;
+    }
+  }
+}
+
+@include small-breakpoint {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

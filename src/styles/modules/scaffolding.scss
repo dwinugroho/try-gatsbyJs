@@ -24,7 +24,7 @@ h2,
 h3,
 h4,
 h5 {
-  margin: 0 0 0.2rem -1px;
+  margin: 0 0 0.2rem 0;
   font-weight: $heading-font-weight;
   font-family: $heading-font-family;
   line-height: $heading-line-height;
@@ -73,7 +73,7 @@ h5 {
   h3,
   h4,
   h5 {
-    margin: 0 0 0.4rem -1px;
+    margin: 0 0 0.4rem 0;
   }
 
   // Heading desktop individual styles
@@ -153,8 +153,19 @@ a {
   // font-weight: 600;
 
   &:hover {
-    color: $link-hover-color;
+    color: $link-hover-color !important;
     text-decoration: underline;
     text-decoration-color: rgba($primary-color, $alpha: 0.4) !important;
   }
+}
+
+hr {
+  border-color: $dark-color;
+  background-color: $dark-color;
+  color: $dark-color;
+}
+
+::selection {
+  background: #6CE6A4;
+  color: white;
 }
